@@ -9,7 +9,7 @@
             display: flex;
             align-items: center;
             flex-direction: column;
-            height: 100vh;
+            height: 50vh;
             background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img_agroconnect.jpeg);
             background-size: cover;
         }
@@ -21,8 +21,8 @@
         
         input {
             display: block;
-            width: 350px;
-            height: 40px;
+            width: 200px;
+            height: 20px;
             margin: 20px;
             border: none;
             outline: none;
