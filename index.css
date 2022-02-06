@@ -20,7 +20,7 @@
 
 .content {
     color: black;
-    max-width: 80%;
+    max-width: 850px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -93,8 +93,8 @@ body {
     border-radius: 10px;
     display: flex;
     flex-shrink: 0;
-    font-size: 100px;
-    height: 600px;
+    font-size: 20px;
+    height: 60px;
     justify-content: center;
     margin: 0 1rem;
     position: relative;
@@ -521,5 +521,15 @@ footer {
     }
     .footer-distributed .footer-center i {
         margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .content {
+        display: block;
+        max-width: 100%;
+    }
+    .carousel {
+        display: block;
     }
 }
